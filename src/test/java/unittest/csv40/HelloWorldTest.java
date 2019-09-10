@@ -58,7 +58,7 @@ public class HelloWorldTest {
 	@Test
 	public void testHelloWorld() throws Exception {
 		HelloWorld.main(null);
-		assertEquals("Hello, World!\r\n", outContent.toString());
+		assertEquals("Hello, World!\n", outContent.toString());
 		totalScore += 20;
 	}
 }
